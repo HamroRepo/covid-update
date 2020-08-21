@@ -16,5 +16,6 @@ Corona Update App
 
 ## Final Look
 
-![Screenshot_1597835221](https://user-images.githubusercontent.com/48161121/90629610-65629d00-e23f-11ea-818c-d9ae9eb9e362.png)
+![resize-15979822041029437444Screenshot1597981520](https://user-images.githubusercontent.com/48161121/90851538-c780e680-e394-11ea-87ed-db3d46c0b8be.png)
+
 
