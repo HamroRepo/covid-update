@@ -95,22 +95,26 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
 
       backgroundColor: Color(0xffF2F6F9),
-      appBar: AppBar(
-        elevation: 0,
-        backgroundColor: Color(0xffFD5A51),
-        leading: Icon(
-          Icons.filter_list,
-          color: kRedContainerColor,
-        ),
-        actions: [
-          Dropdown(),
-        ],
-      ),
+
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Container(
-            padding: EdgeInsets.only(left: 20, right: 30, bottom: 30),
+            padding: EdgeInsets.only(left: 20, right: 20, top:10),
+            color: Colors.redAccent,
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Icon(
+                  Icons.menu,
+                  color: kRedContainerColor,
+                ),
+                Dropdown(),
+              ],
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.only(left: 20, right: 20, bottom: 30),
             color: Color(0xffFD5A51),
             child: Column(
 //              mainAxisAlignment: MainAxisAlignment.start,
